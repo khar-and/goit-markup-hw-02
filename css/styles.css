@@ -11,6 +11,7 @@ body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
     background-color: var(--main-background-color);
+    color: var(--text-color);
 }
 
 /* -----------Summary styles---------------- */
@@ -28,6 +29,9 @@ body {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: var(--title-color);
 }
 
@@ -36,6 +40,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--title-color);
 }
 
@@ -48,7 +53,7 @@ body {
 
 /* portfolio buttons */
 .btn {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -64,6 +69,7 @@ body {
 .header-navigation {}
 
 .header-logo {
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -94,7 +100,7 @@ body {
 
 .header-link:hover,
 .header-link:focus {
-    color: var(--link-color);
+    color: #404bbf;
 }
 
 .contacts {}
@@ -103,7 +109,20 @@ body {
 
 .contacts-item {}
 
-.contacts-mail,
+.contacts-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf
+}
+
+/* .contacts-mail,
 .contacts-tel {
     font-style: normal;
     font-weight: 400;
@@ -114,13 +133,13 @@ body {
 
 .contacts-mail:hover,
 .contacts-mail:focus {
-    color: var(--link-color);
+    color: #404bbf;
 }
 
 .contacts-tel:hover,
 .contacts-tel:focus {
-    color: var(--link-color);
-}
+    color: #404bbf;
+} */
 
 /* -----------------HEROr------------------- */
 .hero {
@@ -163,8 +182,13 @@ body {
 
 /* -----------------OUR TEAM------------------- */
 
+
 .team {
     background-color: var(--second-background-color);
+}
+
+.team-item {
+    background-color: var(--main-background-color);
 }
 
 /* -----------------FOOTER------------------- */
